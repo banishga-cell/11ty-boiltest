@@ -8,7 +8,8 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    padding: 0 20px;
+    display: inline-block;
     border-radius: 50px;
     background: #212431;
 }
