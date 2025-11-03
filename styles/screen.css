@@ -1,17 +1,20 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: 'Roboto', sans-serif;
+    color: #C8E0F4;
+    background: #031927;
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
-    margin: 40px auto 0 auto;
-    padding: 0 20px;
-    display: inline-block;
-    border-radius: 50px;
-    background: #212431;
+    margin: 30px auto;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #FF6B6B, #FFD93D);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
 
 nav ul {
@@ -35,17 +38,47 @@ nav ul li a {
 }
 
 h1 {
+    font-family: 'Montserrat';
     font-size: 8em;
     letter-spacing: -2px;
 }
 
 h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(202, 104, 248);
+    background: linear-gradient(45deg, rgb(134, 229, 208) 0%, rgb(240, 108, 108) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 img.about {
     opacity: 0.5;
+}
+
+.item-card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 250px;
+  text-align: center;
+  background-color: #f8f8f8;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item-card img.item-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.item-card h2 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.item-card p {
+  font-size: 1rem;
+  color: #555;
 }
